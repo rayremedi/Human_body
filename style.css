@@ -1,0 +1,94 @@
+main #humanBody {
+  position: relative;
+  padding: 2%;
+  margin-top: 3%;
+  left: 50%;
+  transform: translate(-50%);
+}
+main h1 {
+  padding-top: 2%;
+  text-align: center;
+}
+main #Main {
+  height: 8%;
+  width: 4%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.719);
+  transform: translate(-50%);
+  position: absolute;
+  color: red;
+  left: 46.5%;
+  bottom: 44%;
+}
+main #Epaule {
+  height: 8%;
+  width: 4%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.719);
+  transform: translate(-50%);
+  position: absolute;
+  color: red;
+  left: 47%;
+  bottom: 60%;
+}
+main #Genou {
+  height: 8%;
+  width: 4%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.719);
+  transform: translate(-50%);
+  position: absolute;
+  color: red;
+  left: 48.5%;
+  bottom: 30%;
+}
+main #Pied {
+  height: 8%;
+  width: 4%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.719);
+  transform: translate(-50%);
+  position: absolute;
+  color: red;
+  left: 51.5%;
+  bottom: 18%;
+}
+main #Hanche {
+  height: 8%;
+  width: 4%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.719);
+  transform: translate(-50%);
+  position: absolute;
+  color: red;
+  left: 52%;
+  bottom: 41%;
+}
+main #Avantbras {
+  height: 8%;
+  width: 4%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.719);
+  transform: translate(-50%);
+  position: absolute;
+  color: red;
+  left: 53.5%;
+  bottom: 50%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#Texte {
+  background-color: white;
+  color: black;
+  left: 45em;
+  bottom: 15em;
+  position: relative;
+  width: 10vw;
+}
+
+/*# sourceMappingURL=style.css.map */

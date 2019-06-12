@@ -1,0 +1,19 @@
+
+@mixin mainposition() {
+  position: relative;
+  padding: 2%;
+  margin-top: 3%;
+  left: 50%;
+  transform: translate(-50%);
+}
+@mixin position() {
+  height: 8%;
+  width: 4%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.719);
+  transform: translate(-50%);
+  position: absolute;
+  color: red;
+}
+
+

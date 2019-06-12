@@ -1,0 +1,44 @@
+@import "mixin";
+
+
+main {
+  #humanBody {
+    @include mainposition();
+    // border: 4px solid black;
+  }
+  h1 {
+    padding-top: 2%;
+    text-align: center;
+  }
+
+  #Main {
+    @include position();
+    left: 46.5%;
+    bottom: 44%;
+  }
+  #Epaule {
+    @include position();
+    left: 47%;
+    bottom: 60%;
+  }
+  #Genou {
+    @include position();
+    left: 48.5%;
+    bottom: 30%;
+  }
+  #Pied {
+    @include position();
+    left: 51.5%;
+    bottom: 18%;
+  }
+  #Hanche {
+    @include position();
+    left: 52%;
+    bottom: 41%;
+  }
+  #Avantbras {
+    @include position();
+    left: 53.5%;
+    bottom: 50%;
+  }
+}
